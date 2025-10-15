@@ -5,42 +5,160 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luciano Grilli | Portafolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>Luciano Grilli</h1>
-    <p>Desarrollador Full Stack .NET</p>
-  </header>
+  <div class="container">
+    <!-- ===== SIDEBAR IZQUIERDA ===== -->
+    <aside class="sidebar">
+      <div class="profile fade-in">
+        <img src="imagen.jpeg" alt="Foto de Luciano Grilli" class="profile-img" />
+        <h1>Luciano Grilli</h1>
+        <p class="subtitle">Desarrollador Full Stack .NET</p>
+         <div class="sidebar-sections">
+          <a href="#about">Sobre mí</a>
+          <a href="#experience">Experiencia</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#skills">Conocimientos</a>
+        </div>
+        </div>
+        <div class="sidebar-links">
+            <h2>Contacto</h2>
+            <p>Podés contactarme en:</p>
+            <div class="contact-links">
+                <a href="mailto:lucianogrilli03@gmail.com">📧 lucianogrilli03@gmail.com</a>
+                <a href="https://www.linkedin.com/in/luciano-grilli-876162214" target="_blank">💼 LinkedIn</a>
+            </div>
+        </div>
+    </aside>
 
-  <section id="about">
-    <h2>Sobre mí</h2>
-    <p>Desarrollador con experiencia en .NET, Kendo, Angular, TypeScript y arquitecturas limpias.</p>
-  </section>
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
+    <main class="content">
+      <section id="about" class="section fade-up">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy desarrollador Full Stack con experiencia en .NET, Kendo UI, Angular y arquitecturas limpias.
+          Me apasiona crear soluciones escalables, eficientes y con una interfaz clara.
+        </p>
+      </section>
 
-  <section id="projects">
-    <h2>Proyectos</h2>
-    <div class="project">
-      <h3>MetroIN</h3>
-      <p>Página comercial</p>
-      <a href="https://metroin.com.ar" target="_blank">Ver web</a>
+      <section id="experience" class="section fade-up">
+        <h2>Experiencia</h2>
+        <div class="projects-grid" style="width: 50%;">
+          <div class="project-card">
+            <h3>Globalassist Group</h3>
+            <p>2021-2025 (4 años)</p>
+            <a href="https://globalassistgroup.com" target="_blank" class="btn-secondary">Ver web</a>
+          </div>
+        </div>
+      </section>
 
-    </div>
-    
-    <div>
-        <h3>MetroIN</h3>
-        <p>Sistema de gestión de asegurables.</p>
-        <a href="https://portal.metroin.ar" target="_blank">Ver web</a>
-    </div>
-  </section>
+      <section id="projects" class="section fade-up">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>MetroIN (Comercial)</h3>
+            <p>Página comercial de MetroIN.</p>
+            <a href="https://metroin.com.ar" target="_blank" class="btn-secondary">Ver web</a>
+          </div>
 
-  <section id="contact">
-    <h2>Contacto</h2>
-    <p><a href="mailto:tuemail@gmail.com">lucianogrilli03@gmail.com</a></p>
-    <p><a href="https://www.linkedin.com/in/luciano-grilli-876162214">LinkedIn</a></p>
-  </section>
+          <div class="project-card">
+            <h3>MetroIN (Sistema)</h3>
+            <p>Plataforma de gestión de asegurables desarrollada con .NET y Kendo UI.</p>
+            <a href="https://portal.metroin.ar" target="_blank" class="btn-secondary">Ver web</a>
+          </div>
+        </div>
+      </section>
+      
+      <section id="skills">
+        <h2>Conocimientos</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" />
+            <span>.NET</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" />
+            <span>C#</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" />
+            <span>TypeScript</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" />
+            <span>Angular</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="Postgresql" />
+            <span>PostgreSql</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+            <span>SQL</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+            <span>Docker</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+            <span>GitHub</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" />
+            <span>API</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" />
+            <span>Microservicios</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" />
+            <span>NetFramework</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg" alt=".NET" />
+            <span>Onion arquitecture</span>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <small>© 2025 Luciano Grilli</small>
-  </footer>
+      <footer class="fade-in">
+        <small>© 2025 Luciano Grilli.</small>
+      </footer>
+    </main>
+  </div>
+
+  <!-- ===== JS para animaciones ===== -->
+  <script>
+    const elements = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+    elements.forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
