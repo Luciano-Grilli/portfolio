@@ -26,7 +26,7 @@ body {
 
 /* ===== SIDEBAR ===== */
 .sidebar {
-  background: linear-gradient(180deg, #006699 0%, #0077b5 100%);
+  background: linear-gradient(180deg, #240810 0%, #2f0b13 100%);
   color: white;
   width: 320px;
   min-height: 100vh;
@@ -133,7 +133,7 @@ body {
   margin-bottom: 4rem;
 }
 h2 {
-  color: #0077b5;
+  color: #2f0b13;
   margin-bottom: 1rem;
 }
 .projects-grid {
@@ -161,10 +161,10 @@ h2 {
 .btn-secondary {
   text-align: center;
   display: inline-block;
-  width: 25%;
+  width: 50%;
   margin-top: auto;
   padding: 0.6rem 1.2rem;
-  background: #0077b5;
+  background: #2f0b13;
   color: white;
   border-radius: 8px;
   text-decoration: none;
@@ -172,7 +172,7 @@ h2 {
   transition: background 0.3s, transform 0.3s;
 }
 .btn-secondary:hover {
-  background: #005c8f;
+  background: #3c1219;
   transform: scale(1.05);
 }
 
@@ -238,7 +238,7 @@ footer {
 }
 
 #skills h2 {
-  color: #0077b5;
+  color: #2f0b13;
   margin-bottom: 2rem;
 }
 
