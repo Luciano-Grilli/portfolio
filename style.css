@@ -26,7 +26,7 @@ body {
 
 /* ===== SIDEBAR ===== */
 .sidebar {
-  background: linear-gradient(180deg, #240810 0%, #2f0b13 100%);
+  background: linear-gradient(180deg, #66061c 0%, #2f0b13 100%);
   color: white;
   width: 320px;
   min-height: 100vh;
